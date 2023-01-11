@@ -1,7 +1,37 @@
-{{page-title "MetaTags"}}
+{{page-title "Meta Tags Sample Ember App"}}
 
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<header>
+  <h1>Meta Tags in an Ember App</h1>
+</header>
+<main id="main">
+  <h2>One Weird Trick</h2>
+  <p>We have long been accustomed to not doing anything to an Ember app’s <code>index.html</code> file. However, there are a few times when it is okay to do, like setting up your site’s meta tags for sharing sites to social media, setting the default language code for your app, and other things.</p>
+  <p>That’s right; the one weird trick is that there is no trick! Examine this app’s code repository, and you’ll see the information right there in the <code>index.html</code> file.</p>
+  <h2>Sample Code</h2>
+  <p>Here is some sample code that you can copy and paste into your own <code>index.html</code>, filling in your details for each of the items that is blank.
+  <br/>Some notes:</p>
+  <ol>
+    <li>Order matters.</li>
+    <li>Image URLs need to be a full URL (e.g., <code>https://yoursite.com/path/to/image.png</code>).</li>
+    <li>If you try this and for some reason something fails, the file name of the image has to be changed.</li>
+  </ol>
+<div>
+<pre><code>&lt;meta name="twitter:card" content="summary_large_image" /&gt;
+&lt;meta name="twitter:site" content="@yourTwitterHandle" /&gt;
+&lt;meta name="twitter:title" content="" /&gt;
+&lt;meta name="twitter:description" content="" /&gt;
+&lt;meta name="twitter:image" content="" /&gt;
+&lt;meta property="og:url" content="" /&gt;
+&lt;meta property="og:title" content="" /&gt;
+&lt;meta property="og:description" content="" /&gt;
+&lt;meta property="og:image" content="" /&gt;
+&lt;meta property="og:image:width" content="1200" /&gt;
+&lt;meta property="og:image:height" content="630" /&gt;</code></pre>
+</div>
+<h2>Testing your work</h2>
+<p>Don't worry, this isn't one of those things where you have to publish the site before you figure out what's going on! 
+<br/>I recommend installing a browser extension called <a href="https://socialsharepreview.com/" rel="external">Social Share Preview</a> to help you test that your items will show up properly. </p>
+</main>
+<footer>
+  <p><small>Made with ❤️ by <a href="https://github.com/melsumner" rel="external">Melanie Sumner</a>.</small></p>
+</footer>
