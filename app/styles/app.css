@@ -6,7 +6,7 @@ body {
   color: black;
   display: grid;
   font-family: 'Sofia Sans', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: normal;
   grid-template-columns: none;
   grid-template-rows: auto minmax(90vh, auto) auto;
@@ -33,7 +33,7 @@ header > h1 {
 }
 h2 {
   color: #033035;
-  margin-top: 1.25rem;
+  margin-top: 2rem;
   margin-bottom: 0.25rem;
 }
 h2 + p {
@@ -51,10 +51,11 @@ pre {
 }
 pre code { 
   white-space: pre-wrap;
+  line-height: 1.75rem;
 }
 code {
-  font-size: 0.9rem;
-  line-height: 1.5;
+  font-size: 1.125rem;
+  line-height: 1.2;
 }
 
 footer {
