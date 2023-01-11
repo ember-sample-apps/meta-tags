@@ -4,16 +4,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-  
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@a11yMel" />
+    <meta name="twitter:title" content="How to set meta tags in an Ember application" />
+    <meta name="twitter:description" content="It can be confusing to figure out how to set up your meta tags in an Ember app, especially if you want to get it right the first time! This guide shows you how." />
+    <meta name="twitter:image" content="https://meta-tags-ember-sample.netlify.app/assets/social-card.png" />
+    <meta property="og:url" content="https://meta-tags-ember-sample.netlify.app/" />
+    <meta property="og:title" content="How to set meta tags in an Ember application" />
+    <meta property="og:description" content="It can be confusing to figure out how to set up your meta tags in an Ember app, especially if you want to get it right the first time! This guide shows you how." />
+    <meta property="og:image" content="https://meta-tags-ember-sample.netlify.app/assets/social-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <title>Meta Tags in Ember apps</title>
-    <meta name="description" content="A simple explainer for setting meta tags for social media shares in an Ember app">
     <link rel="stylesheet" href="style.css">
-    {{content-for "head"}}
-
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/meta-tags.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap" rel="stylesheet">
+
+    {{content-for "head"}}
 
     {{content-for "head-footer"}}
   </head>
