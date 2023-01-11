@@ -45,7 +45,7 @@ h2 + p {
 pre {
   white-space: pre;
   overflow-x: auto;
-  background-color: #1e293b;
+  background-color: #033035;
   border-radius: 0.75rem;
   color: #f8fafc;
   padding: 1.25rem;
@@ -60,4 +60,16 @@ code {
   line-height: 1.5;
 }
 
-footer > p { padding: 0; margin: 0; }
+footer {
+  background-color:#033035; ;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+
+}
+footer p { padding: 0; margin: 0; }
+footer a,
+footer a:visited { 
+  color: lemonchiffon;
+}
